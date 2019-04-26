@@ -1,1 +1,6 @@
 var playlist = {DreamState: "Hand in Hand"}
+
+function updatePlaylist(obj, artist, song){
+  obj[artist] = song
+  return obj
+}
